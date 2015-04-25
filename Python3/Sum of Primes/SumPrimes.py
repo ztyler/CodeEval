@@ -5,8 +5,8 @@ def isprime(x):
     return True
 
 primes = 0
-count = 1
 pSum = 0
+count = 1
 while primes < 1000:
     count = count + 1
     if isprime(count):
